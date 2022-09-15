@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" ana="#parla.agenda #reference"
+     xml:id="NRSITZ_020_00002">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt><!--Header introduced in step tei-6--><title type="main" xml:lang="en">Austrian parliamentary corpus ParlaMint-AT ...</title>
+            <title type="sub" xml:lang="en">Plenary session NRSITZ_020_00002 ...</title>
+            <title type="main" xml:lang="de">Österreichisches Parlamentskorpus ParlaMint-AT ...</title>
+            <title type="sub" xml:lang="de">Plenarsitzung NRSITZ_020_00002</title>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.session" n="2">2. Sitzung
+          </meeting>
+            <meeting xml:lang="de" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">XX. Gesetzgebungsperiode
+          </meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.session" n="2">
+            Session 2</meeting>
+            <meeting xml:lang="en" corresp="#NR" ana="#parla.lower #parla.term #NR.XX" n="20">
+            Legislative period XX</meeting>
+            <respStmt>
+               <persName>Hannes Pirker</persName>
+               <resp xml:lang="en">Data retrieval, TEI XML corpus encoding and linguistic annotation</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="en">CLARIN-ERIC (Common Language Resources and Technology Infrastructure—European Research Infrastructure Consortium</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </funder>
+            <funder>
+               <orgName xml:lang="en">ÖAW (Austrian Academy of Sciences)</orgName>
+               <orgName xml:lang="de">ÖAW (Österreichische Akademie der Wissenschaften)</orgName>
+               <ref target="https://www.oeaw.ac.at/">www.oeaw.ac.at</ref>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>2.0</edition>
+         </editionStmt>
+         <extent><!--DUMMY These numbers do not reflect the size of the sample!--><measure unit="speeches" quantity="123" xml:lang="de">136 Äußerungen</measure>
+            <measure unit="speeches" quantity="123" xml:lang="en">136 speeches</measure>
+            <measure unit="words" quantity="123" xml:lang="de">12263 Wörter</measure>
+            <measure unit="words" quantity="123" xml:lang="en">12263 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="en">CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI">https://github.com/clarin-eric/ParlaMint</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+               <p xml:lang="cs">Dieses Werk is lizensiert unter der <ref target="http://creativecommons.org/licenses/by/4.0/">Commons Attribution 4.0 International Lizenz</ref>.</p>
+            </availability>
+            <date when="2022-09-15">2022-09-15</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><!-- ???? check !!!! --><title type="main" xml:lang="de">Plenarsitzung des Nationalrats der Republik Österreich</title>
+               <title type="sub" xml:lang="de">Stenografisches Protokoll</title>
+               <publisher>Parlamentsdirektion</publisher>
+               <idno type="URI">https://www.parlament.gv.at/PAKT/VHG/XX/NRSITZ/NRSITZ_00002/.html</idno>
+               <date when="1996-01-15">1996-01-15</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+            <p xml:lang="en">
+               <ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://github.com/clarin-eric/parla-clarin">Parla-CLARIN recommendations</ref> and covering the COVID-19 pandemic from November 2019 as well as the earlier period from 2015 to serve as a reference corpus; (2) process the corpora linguistically to add Universal Dependencies syntactic structures and Named Entity annotation; (3) make the corpora available through concordancers and Parlameter; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+         </projectDesc>
+         <tagsDecl><!--DUMMY: These numbers do not reflect the size of the sample!--><namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="div" occurs="1"/>
+               <tagUsage gi="note" occurs="1"/>
+               <tagUsage gi="pb" occurs="1"/>
+               <tagUsage gi="u" occurs="1"/>
+               <tagUsage gi="seg" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="1"/>
+               <tagUsage gi="vocal" occurs="1"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="gap" occurs="1"/>
+               <tagUsage gi="desc" occurs="1"/>
+               <tagUsage gi="time" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="city" xml:lang="de">Wien</name>
+               <name type="city" xml:lang="en">Vienna</name>
+               <name type="country" key="AT" xml:lang="en">Austria</name>
+               <name type="country" key="AT" xml:lang="de">Österreich</name>
+               <date ana="#parla.sitting" when="1996-01-15">1996-01-15</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-09-15">
+            <name>Hannes Pirker</name>: Converted from source HTML to TEI.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text ana="reference">
+      <body>
+         <div xml:id="NRSITZ_020_00002_d2e138" type="debateSection">
+            <gap reason="editorial">
+               <desc xml:lang="en">Frontmatters and table of content removed</desc>
+               <desc xml:lang="de">Titelseite und Inhaltsangabe entfernt</desc>
+            </gap>
+            <pb n="5"/>
+            <note type="time">Beginn der Sitzung: <time when="1996-01-15T16:46:00+01:00">16:46</time> Uhr </note>
+            <note type="chairpersons">Präsident Dr. Heinz Fischer</note>
+            <note type="speaker">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="_d7e739" ana="ucat:chair">
+               <seg xml:id="NRSITZ_020_00002_d2e155">
+            Meine Damen und Herren! Ich eröffne  die Sitzung, um Ihnen mitzuteilen, daß mir berichtet wurde, daß die entsprechenden behördlichen Akte im Zusammenhang mit der Niederlegung von Mandaten und der Ausstellung von Wahlscheinen für neue Abgeordnete, die eine Einbeziehung der Landeswahlbehörden erforderlich machen, noch nicht beendet sind. Die ursprüngliche Annahme, daß das mehr als zwei Stunden dauern könnte, erweist sich als richtig. Der Versuch, die Unterbrechung kürzer zu gestalten, um Ihnen Zeit zu sparen, ist nicht erfolgreich gewesen.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e157">
+            Damit wir ja keinen Formfehler machen und nicht Probleme mit dem Amtlichen oder irgendeinem anderen Protokoll bekommen, muß ich die Sitzung noch einmal unterbrechen. Es wird mir mitgeteilt, daß wir um 17.15 Uhr – nach menschlichem Ermessen – fortsetzen und die Angelobungen durchführen können.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e159">
+            Die Sitzung ist unterbrochen  . – Ich danke für Ihr Verständnis.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e161">
+                  <note type="procedural">(Die Sitzung wird um 16.48 Uhr unterbrochen und um 17.21 Uhr wiederaufgenommen.) </note>
+               </seg>
+            </u>
+            <note type="speaker">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="_d7e773" ana="ucat:chair">
+               <seg xml:id="NRSITZ_020_00002_d2e167">
+            Ich nehme  die unterbrochene Sitzung wieder auf  .
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e169">Mandatsverzicht und Angelobung </seg>
+            </u>
+            <note type="speaker">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="_d7e800" ana="ucat:chair">
+               <seg xml:id="NRSITZ_020_00002_d2e174">
+            Von der Bundeswahlbehörde sind die Mitteilungen eingelangt, daß die Abgeordneten Mag. Herbert Bösch  , Dkfm. Ilona Graenitz  , Dr. Hilde Hawlicek  , Dkfm. DDr. Friedrich König  , Dr. Reinhard Rack  , Dr. Paul Rübig, Agnes Schierhuber  , Dr. Michael Spindelegger  , Ing. Wolfgang Nußbaumer  , Mag. Karl Schweitzer  , Mag. Erich Schreiner, Dr. Klaus Lukas  und Dr. Martina Gredler  auf ihre Mandate verzichtet haben, was in Zusammenhang mit der Bestätigung ihrer Wahl als Mitglieder des Europäischen Parlaments steht.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e176">
+            Anstelle des Abgeordneten Mag. Herbert Bösch  wurde der Abgeordnete Manfred Lackner  , anstelle der Abgeordneten Dkfm. Ilona Graenitz  die Abgeordnete Sonja Ablinger  und anstelle der Abgeordneten Dr. Hilde Hawlicek  die Abgeordnete Eleonora Hostasch  in den Nationalrat berufen.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e178">
+            Weiters wurde auf das freigewordene Mandat des Abgeordneten Dkfm. DDr. Friedrich König  Herr Abgeordneter Fritz Neugebauer  , auf das freigewordene Mandat des Abgeordneten Dr. Reinhard Rack  Herr Abgeordneter Hermann Kröll  und auf das freigewordene Mandat des Abgeordneten Dr. Paul Rübig Herr Abgeordneter Wolfgang Großruck  berufen.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e180">
+            Das durch Verzicht freigewordene Mandat des Abgeordneten Ing. Leopold Maderthaner  erhält Abgeordneter Dr. Alfred Brader.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e182">
+            Dem Abgeordneten Ing. Leopold Maderthaner  wurde das freigewordene Mandat der Abgeordneten Agnes Schierhuber  , dem Abgeordneten Dr. Alois Mock  das freigewordene Mandat des Abgeordneten Dr. Spindelegger zugewiesen.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e184">
+            Darüber hinaus wurde anstelle des Abgeordneten Ing. Wolfgang Nußbaumer  Frau Abgeordnete Dr. Brigitte Povysil  , anstelle des Abgeordneten Mag. Karl Schweitzer  Frau Abgeordnete Dr. Liane Höbinger-Lehrer  , anstelle des Abgeordneten Mag. Erich Schreiner Herr Abgeordneter Josef Trenk  und anstelle des Abgeordneten Dr. Klaus Lukas  Herr Abgeordneter Dipl.-Ing. Thomas Prinzhorn  in den Nationalrat berufen.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e186">
+                  <pb n="6"/>
+            Schließlich erhielt der Abgeordnete Hans Helmut Moser  das freigewordene Mandat der Frau Abgeordneten Dr. Martina Gredler  .
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e189">
+            Da die Wahlscheine der neuen Mandatare bereits vorliegen und diese Mandatare, wie mir berichtet wird, im Hause anwesend sind, werden wir sogleich die Angelobung vornehmen.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e191">
+            Sie kennen den Vorgang: Nach Verlesung der Gelöbnisformel und über Namensaufruf werden die neuen und die zum Teil wiederanzugelobenden Mandatare ihre Angelobung mit den Worten "Ich gelobe" zu leisten haben.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e193">
+            Ich bitte Sie, sich von den Sitzen zu erheben, und ersuche die Frau Schriftführerin Apfelbeck um Verlesung der Gelöbnisformel.
+          </seg>
+            </u>
+            <note type="speaker">Schriftführerin Ute Apfelbeck</note>
+            <u who="#PAD_00030" xml:id="_d7e953" ana="ucat:regular">
+               <seg xml:id="NRSITZ_020_00002_d2e199">
+            "Sie werden geloben unverbrüchliche Treue der Republik Österreich, stete und volle Beobachtung der Verfassungsgesetze und aller anderen Gesetze und gewissenhafte Erfüllung Ihrer Pflichten."
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e201">
+            Über Namensaufruf durch die Schriftführerin Apfelbeck leisten die nachstehend angeführten Abgeordneten die Angelobung mit den Worten "Ich gelobe":
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e203">Manfred Lackner  , Sonja Ablinger  , Eleonore Hostasch, Fritz Neugebauer  , Hermann Kröll  , Wolfgang Großruck  , Dr. Alois Mock  , Dr. Brigitte Povysil  , Dr. Liane Höbinger-Lehrer  , Josef Trenk  , Dipl.-Ing. Thomas Prinzhorn  , Hans Helmut Moser  , Dr. Alfred Brader.
+          </seg>
+            </u>
+            <note type="speaker">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="_d7e1009" ana="ucat:chair">
+               <seg xml:id="NRSITZ_020_00002_d2e208">
+            Ich begrüße die soeben angelobten Abgeordneten sehr herzlich in unserer Mitte und wünsche alles Gute. <kinesic type="applause">
+                     <desc>(Allgemeiner Beifall.) </desc>
+                  </kinesic>
+               </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e213">
+            Damit ist die Angelobung beendet.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e215">Einlauf und Zuweisungen </seg>
+            </u>
+            <note type="speaker">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="_d7e1039" ana="ucat:chair">
+               <seg xml:id="NRSITZ_020_00002_d2e220">
+            Hinsichtlich der eingelangten Verhandlungsgegenstände und deren Zuweisungen verweise ich gemäß § 23 der Geschäftsordnung auf die im Sitzungssaal verteilte schriftliche Mitteilung.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e222">
+            Ich gehe davon aus, daß jene Ausschüsse, denen Vorlagen zugewiesen wurden, noch heute konstituiert werden.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e224">
+            Die schriftliche Mitteilung hat folgenden Wortlaut:
+          </seg>
+               <gap reason="editorial">
+                  <desc xml:lang="en">Quoted printed matter omited</desc>
+                  <desc xml:lang="de">Zitierte Druckfassung entfernt</desc>
+               </gap>
+            </u>
+            <note type="speaker">Präsident Dr. Heinz Fischer</note>
+            <u who="#PAD_00334" xml:id="_d7e1333" ana="ucat:chair">
+               <seg xml:id="NRSITZ_020_00002_d2e234">
+            Weiters gebe ich bekannt, daß in dieser Sitzung die Selbständigen Anträge 17/A bis 23/A (E) sowie die Anfragen 2/J bis 12/J eingebracht wurden.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e236">
+            Die nächste  Sitzung des Nationalrates, die geschäftsordnungsmäßige Mitteilungen umfaßt und in welcher Zuweisungen vorgesehen sind, berufe ich für 17.28 Uhr ein. Sie wird also in unmittelbarem Anschluß an diese Sitzung stattfinden.
+          </seg>
+               <seg xml:id="NRSITZ_020_00002_d2e238">
+            Diese Sitzung ist geschlossen  .
+          </seg>
+               <note type="time">Schluß der Sitzung: <time when="1996-01-15T17:27:00+01:00">17:27</time> Uhr </note>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>

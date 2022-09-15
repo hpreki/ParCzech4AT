@@ -9,3 +9,4 @@ src/TEITOK
 src/NameTag-module/models
 src/**/*.xml
 src/**/*.mp3
+TEST_*
