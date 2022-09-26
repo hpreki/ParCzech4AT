@@ -18,6 +18,7 @@ SHELL:=/bin/bash
 #	mkdir -p udpipe_results/parlat; rm -f udpipe_results/parlat/*
 #	perl -I lib src/udpipe2/udpipe2.pl \
 #						 --colon2underscore \
+#						--try2fix-spaces \
 #                               --model=german-hdt-ud-2.10-220711 \
 #                               --filelist TEST_TEI_FILELIST_AT.txt \
 #                               --input-dir ${sampleAT} \
@@ -31,6 +32,7 @@ udpipetest:
 	mkdir -p udpipe_results/TEST_ParlaMint-AT; rm -f udpipe_results/TEST_ParlaMint-AT/*
 	nohup perl -I src/udpipe2/udpipe2.pl \
 						 --colon2underscore \
+						 --try2fix-spaces \
                                --model=german-hdt-ud-2.10-220711 \
                                --filelist TEST_TEI_FILELIST4udpipe.txt \
                                --input-dir TEST_ParlaMint-AT \
